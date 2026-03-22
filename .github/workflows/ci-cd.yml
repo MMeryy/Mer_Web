@@ -34,5 +34,5 @@ jobs:
       run: docker push dockermery/simple-app:latest
 
      #Optional Kubernetes deployment step
-     - name: Deploy to Kubernetes
+    - name: Deploy to Kubernetes
        run: kubectl apply -f deployment.yaml
